@@ -1,0 +1,60 @@
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+      width: 90%;
+      max-width: 90%; /* Ancho máximo para pantallas grandes */
+      margin: 0 auto; /* Centrar el contenedor en la página */
+      padding: 20px;
+      box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nombre{
+    display: flex;
+   
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    justify-content: center;
+    margin: auto;
+}
+
+#imagen{
+    height: 90px;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedor{
+  border-radius: 13px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+

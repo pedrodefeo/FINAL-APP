@@ -1,0 +1,51 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title size="large" class="titulo">
+     RECOMENDACIONES
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ 
+
+  <ion-content>
+    <ion-button id="btnAleatorio" expand="full" (click)="obtenerRecomendacionAleatoria()">Obtener Recomendacion del dia</ion-button>
+  
+    <button *ngIf="appRecomendada" ><ion-card>
+      <ion-card-header>
+        Aplicación Recomendada
+      </ion-card-header>
+      <ion-card-content (click)="descargarApp(appRecomendada.id)">
+        <img  src="{{appRecomendada.imagen}}" alt="">
+        <p id="nombre">Nombre: {{ appRecomendada.nombre }}</p>
+        <p>Categoría: {{ appRecomendada.tipo }}</p>
+       
+      </ion-card-content>
+      <div class="contenedorBotones">
+        <div class="botonesLike"><button class="likes" (click)="apretarMg()" [ngClass]="{'colorVerde':verde}" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Facebook_logo_thumbs_up_like_transparent_SVG.svg/925px-Facebook_logo_thumbs_up_like_transparent_SVG.svg.png" alt=""></button></div>
+        <div class="botonesLike"><button class="likes" (click)="sinColor()"><img src="https://www.pngmart.com/files/3/Red-Cross-Transparent-PNG.png" alt=""></button></div>
+        <div class="botonesLike"><button class="likes" (click)="apretarDislike()" [ngClass]="{'colorRojo': rojo}"><img src="https://purepng.com/public/uploads/large/facebook-dislike-0xe.png" alt=""></button></div>
+        
+      </div>
+    </ion-card>
+  </button>
+
+   
+
+
+      
+
+
+
+      
+      
+
+
+ 
+
+
+
+
+  
+  

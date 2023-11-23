@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="titulo" size="large">
+      APLICACIONES
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<div class="container">
+  <ion-card *ngFor="let item of aplicaciones" [ngClass]="{'app-gratuita': item.Precio, 'app-paga': !item.Precio}">
+  <img alt="Silhouette of mountains" src="{{item.imagen}}" />
+  <ion-card-header>
+    <ion-card-title>{{item.nombre}}</ion-card-title>
+    <ion-card-subtitle>{{item.tipo}}</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    
+  </ion-card-content>
+  <ion-button (click)="navegarAPagina(item.id)" shape="round">Descargar</ion-button>
+</ion-card>
+  
+</div>
+</ion-content>
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+// Estilos para la página
+.titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ion-content {
+    background-color: #ffecb3; // Fondo amarillo claro
+    color: #333; // Texto oscuro
+  }
+
+  ion-card{
+    background-color: transparent; // Fondo blanco para el card
+    
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); // Sombra más pronunciada
+    margin: 20px;
+    
+  }
+  
+  button {
+    background-color: transparent; // Fondo blanco para el card
+   
+    border-radius: 20px; // Bordes redondeados
+    
+    
+  }
+  
+  // Estilos para el botón de recomendaciones aleatorias
+  #btnAleatorio {
+    background: linear-gradient(to right, #ff00cc, #3333cc); // Degradado de colores vibrantes
+    color: #fff; // Texto blanco
+    font-weight: bold;
+    border-radius: 50px; // Bordes redondeados
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); // Sutil sombra
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out; // Efectos de transformación, sombra y cambio de color
+  
+    &:hover {
+      transform: scale(1.1); // Efecto de escala al tocar el botón
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); // Sombra más pronunciada al tocar el botón
+      background-color: #ff3385; // Cambio de color al pasar el ratón
+    }
+  }
+
+ion-card-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     flex-direction: column;
+  }
+
+
+  ion-card-header{
+    display: flex;
+   
+    align-items: center;
+  }
+
+
+ 
+
+  
+
+
+
+ 
+
+ 

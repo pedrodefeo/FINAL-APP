@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title size="large" class="titulo">
+     RECOMENDACIONES
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ 
+
+  <ion-content>
+    <ion-button id="btnAleatorio" expand="full" (click)="obtenerRecomendacionAleatoria()">Obtener Recomendacion del dia</ion-button>
+  
+    <button *ngIf="appRecomendada" (click)="descargarApp(appRecomendada.id)"><ion-card >
+      <ion-card-header>
+        Aplicación Recomendada
+      </ion-card-header>
+      <ion-card-content>
+        <img src="{{appRecomendada.imagen}}" alt="">
+        <p>Nombre: {{ appRecomendada.nombre }}</p>
+        <p>Categoría: {{ appRecomendada.tipo }}</p>
+        
+      </ion-card-content>
+      
+    </ion-card>
+  </button>
+   
+
+
+      
+
+
+
+      
+      
+
+
+ 
+
+
+
+
+  
+  

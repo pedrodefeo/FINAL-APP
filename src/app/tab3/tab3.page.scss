@@ -1,0 +1,104 @@
+
+.titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+      font-size:large;
+      max-width: 1200px; 
+      margin: 0 auto; 
+      padding: 0px;
+      box-sizing: border-box;
+}
+
+button{
+  background-color: transparent;
+}
+
+ion-content {
+    background-color: #ffecb3; 
+    color: #333; 
+  }
+  
+  ion-card {
+    background-color: #fff; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    border-radius: 20px; 
+    margin: 20px;
+    
+  }
+  
+  
+  #btnAleatorio {
+    background: linear-gradient(to right, #ff00cc, #3333cc); 
+    color: #fff; 
+    font-weight: bold;
+    border-radius: 50px; 
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out; 
+  
+    &:hover {
+      transform: scale(1.1); 
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+      background-color: #ff3385; 
+    }
+  }
+
+ion-card-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     flex-direction: column;
+  }
+
+
+  ion-card-header{
+    display: flex;
+   
+    align-items: center;
+  }
+
+  #nombre{
+    margin-top: 10px;
+  }
+
+ 
+.likes img{
+  background-color: transparent;
+  height: 30px;
+  padding: 4px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.botonesLike{
+  margin: 10px;
+}
+
+
+.colorVerde{
+  background-color: green;
+  border-radius: 10px;
+}
+
+.colorRojo{
+  background-color: red;
+  border-radius: 10px;
+}
+
+.contenedorBotones{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+
+  
+
+
+
+ 
+
+ 
